@@ -321,30 +321,12 @@ blockquote {
   line-height: 1.45;
 }
 
-.story-photo {
-  margin: 2.5em 0;
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: var(--shadow);
-  border: 1px solid var(--border);
-}
-
-.story-photo img {
-  width: 100%;
-  display: block;
-  object-fit: cover;
-  max-height: 440px;
-  object-position: center top;
-}
-
-.story-photo figcaption {
-  padding: 14px 20px 18px;
-  font-family: var(--serif);
-  font-size: 0.88rem;
-  font-style: italic;
-  line-height: 1.55;
-  color: var(--muted);
-  background: rgba(255, 249, 242, 0.95);
+.parallax-story {
+  margin: 2.5em calc(50% - 50vw);
+  height: 440px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
 }
 
 .story-rule {
